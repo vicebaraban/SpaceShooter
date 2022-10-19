@@ -1,9 +1,7 @@
 #include <SFML/Graphics.hpp>
-#include <SFML/Audio.hpp>
 #include <cmath>
 #include <ctime>
 #include <cstdlib>
-#include <iostream>
 
 #define WIDTH 1600
 #define HEIGHT 900
@@ -97,10 +95,6 @@ int main()
 	bool shoot = false;
 	bool lose = false;
 	int counter = 0;
-
-
-	sf::Clock AITimer;
-	const sf::Time AITime = sf::seconds(0.1f);
 
 	sf::Clock clock;
 
